@@ -112,9 +112,9 @@
       "properties": {
         "publisher": "Microsoft.Azure.Extensions",
 		"type": "CustomScript",
-		"typeHandlerVersion": "2.0",
-		"autoUpgradeMinorVersion": true,
+		"typeHandlerVersion": "2.0"
         "settings": {
+	  "autoUpgradeMinorVersion": true,
           "fileUris": "[parameters('osSettings').scripts]",
           "commandToExecute": "[concat('bash install-mysql.sh ', parameters('lapNode'))]"
         }
