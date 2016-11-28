@@ -45,7 +45,7 @@
     },
     "minecraftServerVersion": {
       "type": "string",
-      "defaultValue": "1.10.2",
+      "defaultValue": "1.11",
       "allowedValues": [
         "1.8",
         "1.9.4",
